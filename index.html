@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YSS Group</title>
+  <link rel="icon" href="/assets/img/yss.gif">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+
+<body>
+  <!-- Preloader -->
+  <div id="preloader">
+    <img class="loader-gif" src="assets/img/yss.gif" alt="Loading...">
+  </div>
+  <!-- End Preloader -->
+
+  
+
+  <div id="main-content" style="display: none;"> 
+  <nav data-toggled="false" data-transitionable="false">
+    <div id="nav-logo-section" class="nav-section">
+      <a href="#">
+        <h1>YSS Group</h1>
+      </a>
+    </div>
+    <div id="nav-mobile-section">
+      <div id="nav-link-section" class="nav-section">
+        <a href="/index.html">HOME</a>
+        <a href="/assets/pages/about.html">ABOUT US</a>
+      </div>
+      <div id="nav-contact-section" class="nav-section">
+        <a href="https://discord.gg/yss" target="_blank">JOIN DISCORD</a>
+      </div>
+    </div>
+    <button id="nav-toggle-button" type="button" onclick="handleNavToggle()">
+      <span>Menu</span>
+    </button>
+  </nav>
+
+  <main>
+    <div class="product-cards-container">
+      <div class="product-card">
+        <img src="/assets/img/PatchAPP.png" alt="PatchAPP">
+        <h2 id="main-name">PatchAPP</h2>
+        <p id="main-p">A Patched APK that can load renderdragon materialbin file under resource pack, Powered by
+          MaterialBinLoader</p>
+        <a href="/assets/pages/patch.html">
+          <button id="main-btn">Download</button>
+        </a>
+      </div>
+      <div class="product-card">
+        <img src="/assets/img/BetterRenderDragon.png" alt="BetterRenderDragon">
+        <h2 id="main-name">BetterRenderDragon</h2>
+        <p id="main-p">A third-party software aims to let you load renderdragon shader through resourcepack and enable
+          the hidden deferred rendering pipeline</p>
+        <a href="/assets/pages/betterrd.html">
+          <button id="main-btn">Download</button>
+        </a>
+      </div>
+    </div>
+  </main>
+</div>
+
+  <!-- <script>
+    // Preloader Animation
+    setTimeout(function () {
+      var preloader = document.getElementById("preloader");
+      var mainContent = document.getElementById("main-content");
+      preloader.classList.add("loaded");
+      mainContent.style.display = "block";
+    }, 4200);
+  </script> -->
+
+  <!-- Script -->
+  <Script src="assets/js/index.js"></Script>
+</body>
+
+</html>
